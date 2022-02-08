@@ -1,0 +1,49 @@
+* {
+  font-family: sans-serif, "Poppins";
+  font-size: 18px;
+  color: #777675;
+}
+.container {
+  box-shadow: 1px 1px 9px #0000002e;
+  margin: 2rem;
+  justify-content: center;
+  height: 50vh;
+  padding: 2rem;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  width: 90%;
+  transition: all 0.2s;
+}
+.container:hover {
+  box-shadow: 1px 1px 9px #00000012;
+}
+form div {
+  width: 30rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+h3 {
+  font-weight: 200;
+  border-bottom: 2px solid;
+  padding: 11px;
+}
+.paybtn {
+  border: none;
+  color: white;
+  border-radius: 6px;
+  padding: 10px 32px;
+  background: linear-gradient(45deg, #0008ff, #9c0909);
+}
+.paybtn:hover {
+  cursor: pointer;
+}
+.input {
+  outline: none;
+  border-radius: 7px;
+  border: none;
+  background-color: aliceblue;
+  padding: 9px 10px;
+}

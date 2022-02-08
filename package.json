@@ -1,0 +1,16 @@
+{
+  "name": "node_paypal_sdk",
+  "version": "1.0.0",
+  "description": "paypal Sdk Setup",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Alexander karanja",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^2.0.12",
+    "paypal-rest-sdk": "^1.7.1"
+  }
+}
